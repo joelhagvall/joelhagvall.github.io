@@ -1,2 +1,2 @@
-# joelhagvall.githib.io
+# joelhagvall.github.io
 Personal website
