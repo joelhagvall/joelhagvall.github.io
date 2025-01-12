@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My GitHub Pages Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Software Engineer</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <p>This is some basic test blabla</p>
-    </div>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="bento-box">
+            <h2>About Me</h2>
+            <p>Short bio here. Mention your experience, skills, and what you're passionate about in software engineering.</p>
+        </section>
+
+        <section id="projects">
+            <div class="bento-box">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Description of the project, technologies used, and outcomes.</p>
+                    <a href="project1.html">Learn More</a>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of another project...</p>
+                    <a href="project2.html">Learn More</a>
+                </div>
+                <!-- Add more project divs as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode"></button>
+
+    <script src="script.js"></script>
 </body>
 </html>
